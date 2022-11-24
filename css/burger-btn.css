@@ -1,0 +1,22 @@
+.burger-btn span {
+  display: block;
+  position: relative;
+  --width: 30px;
+  width: var(--width);
+  height: calc(var(--width) / 10);
+  background-color: var(--clr-font);
+}
+.burger-btn span::before, .burger-btn span::after {
+  content: "";
+  position: absolute;
+  width: var(--width);
+  height: calc(var(--width) / 10);
+  left: 0;
+  background-color: inherit;
+}
+.burger-btn span::before {
+  top: calc(var(--width) / -3.1);
+}
+.burger-btn span::after {
+  top: calc(var(--width) / 3.1);
+}

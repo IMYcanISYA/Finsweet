@@ -1,0 +1,7 @@
+footer .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 80px 32px 80px 64px;
+  background-color: var(--clr-bg-l);
+}
