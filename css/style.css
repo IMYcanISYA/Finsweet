@@ -1139,6 +1139,7 @@ iframe {
 }
 
 .item-blog {
+  color: var(--clr-font);
   min-width: 290px;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 30%;
@@ -1161,6 +1162,10 @@ iframe {
   color: var(--clr-font);
   opacity: var(--opacity-font);
   margin-bottom: 16px;
+  color: var(--clr-font);
+}
+.item-blog__desc {
+  color: var(--clr-font);
 }
 .item-blog__img-wrapper {
   height: 100%;

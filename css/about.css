@@ -733,10 +733,23 @@ footer .footer-bottom__btn span {
   display: -ms-flexbox;
   display: flex;
 }
+@media (max-width: 1024px) {
+  .about-text .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .about-text__title {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
+}
+@media (max-width: 1024px) {
+  .about-text__title {
+    margin-bottom: 32px;
+  }
 }
 .about-text__content {
   -webkit-box-flex: 0;
